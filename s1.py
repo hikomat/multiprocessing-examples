@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     arguments = [
         {'a': 1, 'b': 2, 'x': 4},
-        {'a': 1, 'b': 2, 'x': 5}
+        {'a': 1, 'b': 2, 'x': 6}
     ]
     execute_on_process_pool(lin, arguments, max_workers=8)
     execute_on_thread_pool(lin, arguments, max_workers=8)
